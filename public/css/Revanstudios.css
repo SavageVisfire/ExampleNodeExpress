@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: source-sans-pro;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+/* Container */
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background-color: #FFFFFF;
+}
+/* Navigation */
+header {
+	width: 100%;
+	height: 5%;
+	background-color: #091622;
+	border-bottom: 0px solid #2C9AB7;
+	position: sticky;
+	top: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+.Welcome {
+	float: left;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	margin-left: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-family: 'PT Sans', sans-serif;
+}
+
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-right: 25px;
+	font-family: 'PT Sans', sans-serif;
+}
+header nav ul {
+	list-style: none;
+	float: right;
+}
+nav ul li {
+	float: left;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-family: 'PT Sans', sans-serif;
+	/*transition: all 1s linear;*/
+}
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #2C9AB7;
+}
+.RevanHeader {
+	color: #468BCB;
+	text-align: right;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+	font-family: 'PT Sans', sans-serif;
+}
+.StudioHeader {
+	font-weight: bold;
+	color: #468BCB;
+	font-family: 'PT Sans', sans-serif;
+	text-align: right;
+	margin-right: 25px;
+}
+/* Title Section */
+.SpaceImageArea {
+	background-repeat: no-repeat;
+	height:100%;
+	width:100%;
+	background-position:center center center center;
+	padding-top: 150px;
+}
+#creativesolthing{
+		font-weight: bold;
+		color: #468BCB;
+		font-family: 'PT Sans', sans-serif;
+		text-align: right;
+		float: right;
+		max-width: 500px;
+		margin-right:25px;
+		clear: both;
+}
+#headingparagraphthing{
+	font-weight: bold;
+	color: #ffffff;
+	font-family: 'PT Sans', sans-serif;
+	text-align: right;
+	float: right;
+	clear: both;
+	max-width: 500px;
+	margin-right: 25px;
+}
+/* Revan Section */
+.Revanbackground {
+	background-color: #ef0e0e;
+	height: 400px;
+
+}
+.RevanBig {
+	color: #FFFFFF;
+	text-align: left;
+	padding-left: 100px;
+	/*padding top used to be 110*/
+	padding-top: 40px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+	font-size:60px;
+	font-family: 'PT Sans', sans-serif;
+
+}
+.Revansmall {
+	color: #FFFFFF;
+	text-align: left;
+	/* padding top used to be 0 */
+	padding-top:30px;
+	padding-left: 100px;
+	width: 50%;
+	float: left;
+	line-height: 40px;
+	font-weight: lighter;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size:35px;
+	font-family: 'PT Sans', sans-serif;
+	}
+	/* Footer */
+	.BottomBackground {
+		background-color: black;
+		height: 400px;
+	}
+
+.footer-main-div{
+	width: 100%;
+	height: 180px;
+	margin: auto;
+	background: black;
+	padding:30px 0px;
+}
+.footer-social-icons{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.footer-social-icons ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-social-icons ul li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	border-radius: 100%;
+	background: white;
+}
+.footer-social-icons ul li a{
+	color: #272727;
+	font-size: 25px;
+	display: block;
+}
+.footer-social-icons ul li a i{
+	line-height: 50px;
+}
+.footer-social-icons ul li:hover{
+	background: #B3B3B3;
+}
+.footer-social-icons ul li:hover a{
+	color: #fff;
+}
+.footer-menu-one{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	/* margin top was 25 */
+	margin-top:40px;
+}
+.footer-menu-one ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-menu-one ul li{
+	display: inline-block;
+	margin: 0px 15px;
+}
+.footer-menu-one ul li a{
+	font-family: arial;
+	font-size:15px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.footer-menu-one ul li a:hover{
+	color: #ef0e0e;
+}
+.footer-menu-two{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	/* margin top was 15 */
+	margin-top:50px;
+}
+.footer-menu-two ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-menu-two ul li{
+	display: inline-block;
+	margin: 0px 15px;
+}
+.footer-menu-two ul li a{
+	font-family: arial;
+	font-size:15px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.footer-menu-two ul li a:hover{
+	color: #ef0e0e;
+}
+//scrollrevealstuff{}
+html.sr .load-hidden {
+    visibility: hidden;
+}
